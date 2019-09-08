@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+}
+
+/* PÁGINA DE LOGIN */
+.login-menu-sup {
+  height: 120px;
+  background-color:aquamarine;
+}
+#login {
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto 0 auto;
+
+}
+/*.page*/
+.container-fluid {
+  width: 1633px!important;
+}
+.menu-sup, .bkup  {background-color: #2088B0;}
+.logo {
+  background: #2088B0 url("../img/logo.png") center center no-repeat;
+}
+.links li, .links a {
+  background-color: #2088B0;
+  color:#fff;
+}
+.bkup {
+  overflow: scroll;
+  height: 120px;
+  color: #fff;
+
+}
+.croqui {
+  height: 400px;
+}
+#content > .foot {}
+#content > .registro {}
+
+.foot {
+  border-top: #887838 solid 20px;
+  background-color: #B09038;
+}
+.registro-title {
+  background-color: #383840;
+}
+.registro {
+  background-color: #383840;
+  height: 200px;
+  color: #586070;
+  overflow: scroll;
+}
+
+
+
+
+.box {
+    width: 30px;
+    border: solid 1px #fff;
+}
+.lcm_bt, .lbx_bt, .vag_bt, .lot_bt, .ldl_bt, comm_bt, .vaz {
+width: 30px;
+height: 30px;
+}
+.vaz {
+background-color: red;
+}
+.lcm_bt {
+
+    background: transparent url("../img/loco_esc.png") center center no-repeat;
+}
+.lbx_bt {
+
+    background: transparent url("../img/loco_esc.png") center center no-repeat;
+}
+.vag_bt {
+
+    background: transparent url("../img/vagao_ico.png") center center no-repeat;
+}
+.lot_bt {
+
+    background: transparent url("../img/vagao_ico.png") center center no-repeat;
+}
+.ldl_bt {
+
+    background: transparent url("../img/close.png") center center no-repeat;
+}
+.comm_bt {
+    background: red;
+
+}
+
+.lcm {
+    z-index: 999999;
+}

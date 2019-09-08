@@ -1,0 +1,147 @@
+#content > .croqui {
+    background: transparent url("../img/terminais.png") center center no-repeat;
+    height:  660px;
+    font-size: 0.8em;
+}
+.linha, .linha p, .linha span {
+    background-color: #fff;
+    color: #000;
+}
+.doubt {
+    position:absolute;
+    top:300px;
+    left:80px;
+    width: 83px;
+    height: 20px;
+    background-color: transparent;
+    clear: left;
+    display: inline-block;
+}
+.doubt > .db {
+    width: 10px;
+    height: 20px;
+    background-color: aqua;
+    float: left;
+}
+.doubt > .lsize {
+    width: 40px;
+    height: 20px;
+    padding-left: 3px;
+    float: left;
+}
+
+.doubt > .vma, .vma > * {
+    width: 30px;
+    height: 20px;
+    background-color: darkorange;
+    float: left;
+}
+
+#L032{
+    position:absolute;
+    top:326px;
+    left:80px;
+    width: 133px;
+    height: 30px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+    
+}
+#L029 {
+    position:absolute;
+    top:356px;
+    left:82px;
+    width: 128px;
+    height: 28px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+}
+#L030 {
+    position:absolute;
+    top:464px;
+    left:300px;
+    width: 140px;
+    height: 26px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+}
+
+#L01A-TG {
+    position:absolute;
+    top:457px;
+    left:533px;
+    width: 163px;
+    height: 26px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+}
+
+#L01B-TG {
+    position:absolute;
+    top:457px;
+    left:748px;
+    width: 182px;
+    height: 26px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+}
+
+#L02A-TG {
+    position:absolute;
+    top:488px;
+    left:545px;
+    width: 153px;
+    height: 26px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+}
+
+#L02B-TG {
+    position:absolute;
+    top:485px;
+    left:751px;
+    width: 179px;
+    height: 26px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+}
+
+
+
+#L1RP-RP {
+    position:absolute;
+    top:544px;
+    left:549px;
+    width: 165px;
+    height: 30px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+}
+#L2RP-RP {
+    position:absolute;
+    top:574px;
+    left:549px;
+    width: 165px;
+    height: 30px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding:5px;
+    
+}
