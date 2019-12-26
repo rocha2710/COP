@@ -1,0 +1,156 @@
+body 
+{
+    background: #dfdfdf url("../img/copbg.jpg") top center;
+}
+#croqui
+{
+    width: 800px;
+    height: 800px;
+    background: red url("../img/layout.jpg") top center;
+    margin-left: 100px;
+    position: fixed;
+    top: 200px;
+    left: 100px;
+}
+#amv001 
+{
+    width: 38px;
+    height: 26px;
+    position: absolute;
+    top:652px;
+    left: 58px;
+    background-color:green;
+}
+.amv_amarelo 
+{
+    background-color: yellow!important;
+}
+.vma 
+{
+    background-color: #6fc14a;
+    padding: 3px;
+    width: 60px;
+    height: 30px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+.nota 
+{
+    background-color: aliceblue;
+    width: 500px;
+    height: 200px;
+    overflow-y: scroll;    
+}
+
+
+.nota_btn 
+{
+    background:transparent url("../img/nota_btn.png") center center no-repeat;
+    color: #fff;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+}
+
+/* BOTÃO DE REFERÊNCIA */
+#l001_btn_add, #l002_btn_add 
+{
+    position: absolute;
+}
+#vma_l001, #l002_btn_add 
+{
+    position: absolute;   
+}
+#nota_btn_l001, #nota_btn_l002 
+{
+    position: absolute;
+}
+#nota_l001, #nota_l002  
+{
+    position: absolute;
+    display: none;
+}
+
+.linha_g {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    transform:rotate(-31deg);
+    opacity: 0.25;
+    z-index: -1000;
+}
+
+.linha_p {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    transform:rotate(-31deg);
+    opacity: 0.25;
+    z-index: -1000;
+}
+
+
+/* FIM L001 */
+
+
+.btn_add 
+{
+    background:transparent url("../img/add_btn.png") center center no-repeat;
+    width: 18px;
+    height: 18px;
+}
+#menu_add_obj 
+{
+	position: absolute;
+	display: none;
+	background-color: orange;
+}
+.loco_obj 
+{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+}
+
+.loco_cm 
+{
+	background:transparent url("../img/lm_fc.png") center center no-repeat;
+}
+#time-line 
+{
+    background:transparent url("../img/timeline.jpg") center center no-repeat;
+    height: 200px;
+    width: 800px;
+   
+    position: absolute;
+}
+.dot 
+{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+}
+.loco_bx {
+	background:transparent url("../img/lm_fb.png") center center no-repeat;
+}
+#balao15 {
+    background-color:#111;
+    padding: 5px;
+    width: 100px;
+    height: 80px;
+    color:  #ddd;
+}
+
+.vag_obj 
+{
+    background:transparent url("../img/v_hft.png") center center no-repeat;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+}
+/* clica no botão - escolhe a cor - clica na time-line e aparece o dot */
